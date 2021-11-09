@@ -1,0 +1,11 @@
+#outer {
+  display: flex;
+  /* flex-direction: column; */
+  border: 1px dotted red;
+  padding: 10px;
+}
+
+.box {
+  border: 1px solid green;
+  padding: 10px;
+}
