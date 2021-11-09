@@ -1,11 +1,49 @@
-#outer {
+body {
   display: flex;
-  /* flex-direction: column; */
-  border: 1px dotted red;
-  padding: 10px;
 }
 
-.box {
-  border: 1px solid green;
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
   padding: 10px;
+  height: 40rem;
+  border: 1px solid red;
+}
+
+.sidebar {
+  flex: 0 0 auto;
+}
+
+.menu {
+  flex: 0.3 0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.icon {
+  width: 40px;
+  border: 1px dotted red;
+  margin: 3px;
+  padding: 0;
+}
+
+div {
+  padding: 0px;
+}
+
+.section {
+  flex: 1 1 auto;
+  border: 1px dotted blue;
+  margin: 3px;
+}
+
+.target1 {
+  flex: 0.4 0 auto;
+}
+
+.target2 {
+  flex: 0.19 0 auto;
 }
