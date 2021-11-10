@@ -1,0 +1,32 @@
+<!-- body 엘리먼트의 자식 엘리먼트(element)는 총 몇 개인가요?
+id의 이름이 news-contents 인 div 엘리먼트의 부모 엘리먼트는 무엇인가요?
+id의 이름이 nav인 div엘리먼트 를 포함해서, 모든 자식 엘리먼트의 class 이름을 console.log를 사용하여 확인하는 방법을 수도코드(pseudocode)로 작성하세요. -->
+
+<html>
+  <body> <!--body의 자식은 div 태그 3개-->
+    <div id="nav">
+      <div class="logo"></div>
+      <div class="menu-wrapper">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="profile-photo"></div>
+      </div>
+    </div>
+    <div id="news-contents"> <!--부모는 body 태그 1개-->
+      <div class="news-content-wrapper">
+        <div class="news-picture"></div>
+        <div class="news-title"></div>
+        <div class="news-description"></div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+
+<!-- function chiledElementAll(parentElement) {
+  //parentElement을 출력
+  //parentElement의 자식이 있는가?
+  //자식이 있다면 자식의 갯수만큼 순회하면서 chiledElementAll 함수를 재귀;
+  //자식이 없다면 종료;
+} -->
